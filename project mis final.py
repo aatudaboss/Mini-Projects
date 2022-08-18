@@ -1,5 +1,5 @@
 
-#Aatish Patel MIS 315 FINAL PROJECT 2022 Summer
+#Aatish Patel MIS 315 FINAL PROJECT 2022 Summer - Uranium Analyzer 
 
 from tkinter import Label, Button, StringVar, Tk, ttk, messagebox, simpledialog
 
