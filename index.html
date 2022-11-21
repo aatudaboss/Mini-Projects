@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend&display=swap');
+
+
+
+.container {position: absolute; margin: 0; width:100%; background: #f4f5f4; min-height: 1200px; }
+
+.white-box { width: 800px; height: 410px; margin-top: 415px; margin-left: auto; margin-right: auto;
+background: rgba(255,255,255,0.9);
+padding: 30px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 3px 1px 2px rgba(0,0,0,0.15);
+box-shadow: 3px 3px  3px 3px rgba(0,0,0,0.15);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+   * {
+      box-sizing: border-box;
+}
+   .grid-item1, .grid-item2, .grid-item3 {
+    
+      float: left;
+      width: 200px;
+      color: white;
+      padding: 10px;
+      height: 350px;
+      text-align: left;
+      padding-left: 20px;
+      border-radius: 1.5%;
+      font-weight: 400px;
+      font-size: 15px;
+      font-family: 'Lexend', sans-serif;
+
+      
+
+   }
+
+h2
+{
+font-family: 'Big Shoulders Display', cursive;
+color: hsl(0, 0%, 95%)
+
+}
+
+.grid-item1{
+  background-color:  hsl(31, 77%, 52%);
+  margin-left: 80px;
+  
+  
+}
+.grid-item2{
+  background-color:hsl(184, 100%, 22%);
+ 
+
+} 
+.grid-item3{
+background-color:hsl(179, 100%, 13%);
+}
+.button1, .button2, .button3 
+{
+border-radius: 20px;
+margin-top: 20%;
+border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+  align-items: center; 
+  
+}
+
+.button1 
+{
+  color:hsl(31, 77%, 52%);
+  margin-bottom: 30px;
+  font-weight:lighter;
+}
+
+.button2{
+  color:hsl(184, 100%, 22%);
+  font-weight:lighter;
+
+}
+
+.button3{
+  color:hsl(179, 100%, 13%);
+  font-weight:lighter;
+
+
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="white-box">
+  
+              <div class="grid-item1">
+                <img src="/Users/apatel6/Downloads/3-column-preview-card-component-main/images/icon-sedans.svg">
+                <h2>SEDANS</h2>
+                  <p>Choose a Sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or your next road trip.</p>
+                  <button class ="button1"> Learn More </button>
+                </div>
+
+              <div class="grid-item2">
+                <img src="/Users/apatel6/Downloads/3-column-preview-card-component-main/images/icon-suvs.svg">
+                <h2>SUVS</h2>
+                  <p>Take an SUV for its spacious interior, power and versalitility. Perfect for your next family vacation and off-road adventures.</p>
+                  <button class ="button2"> Learn More </button>
+                    </div>
+              <div class="grid-item3">
+                <img src="/Users/apatel6/Downloads/3-column-preview-card-component-main/images/icon-luxury.svg">
+
+                <h2>LUXURY</h2>
+                  <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</style></p>
+                  <button class ="button3"> Learn More </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>  
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aatish J Patel </a>.
+  </div>
+</body>
+</html>
